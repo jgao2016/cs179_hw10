@@ -1,0 +1,370 @@
+
+
+.screen27 {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 667px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.screen27 .profile {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 74px;
+  height              : 60px;
+  width               : 63px;
+  position            : absolute;
+  margin              : 0;
+  left                : 155px;
+}
+.screen27 .profile .shape {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+}
+.screen27 .profile .shape1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 34px;
+  height              : 26px;
+  width               : 63px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen27 .bella {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 152px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 162px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : justify;
+  line-height         : 24.0px;
+}
+.screen27 .menu-symbol {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 579px;
+  height              : 69px;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+}
+.screen27 .menu-symbol .polygon {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.screen27 .menu-symbol .friends {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.screen27 .cells-button-cell {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 372px;
+  height              : 44px;
+  width               : 244px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.screen27 .cells-button-cell .cell {
+  background          : rgba(232, 245, 246, 1.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 244px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen27 .cells-button-cell .label {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 68px;
+  font-family         : "Futura-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(19, 107, 113, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.34px;
+  line-height         : 19.0px;
+}
+.screen27 .cells-button-cell2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 461px;
+  height              : 44px;
+  width               : 244px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+}
+.screen27 .cells-button-cell2 .cell1 {
+  background          : rgba(232, 245, 246, 1.0);
+  top                 : 0px;
+  height              : 44px;
+  width               : 244px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen27 .cells-button-cell2 .label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  font-family         : "Futura-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(19, 107, 113, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.34px;
+  line-height         : 19.0px;
+}
+.screen27 .total-meal-game-time {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.screen27 .a1019-minutes15603 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 193px;
+  height              : auto;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : 203px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : right;
+  line-height         : 29.0px;
+}
+.screen27 .menu-symbol1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 579px;
+  height              : 70px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 125px;
+}
+.screen27 .menu-symbol1 .polygon1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.screen27 .menu-symbol1 .friends1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.screen27 .menu-symbol2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 579px;
+  height              : 70px;
+  width               : 53px;
+  position            : absolute;
+  margin              : 0;
+  left                : 217px;
+}
+.screen27 .menu-symbol2 .polygon2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.screen27 .menu-symbol2 .friends2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.screen27 .menu-symbol3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 579px;
+  height              : 70px;
+  width               : 65px;
+  position            : absolute;
+  margin              : 0;
+  left                : 309px;
+}
+.screen27 .menu-symbol3 .polygon3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+}
+.screen27 .menu-symbol3 .friends3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : justify;
+  line-height         : 16.0px;
+}
+.screen27 .screen-shot20180405-at13752-pm {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : 34px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 327px;
+  opacity             : 0.3;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

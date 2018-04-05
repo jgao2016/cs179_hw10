@@ -1,0 +1,279 @@
+
+
+.screen21 {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 667px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.screen21 .rectangle2 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 667px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.screen21 .white-list {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 136px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.screen21 .rectangle {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 141px;
+  height              : 188px;
+  width               : 287px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(49, 164, 171, 1.0);
+}
+.screen21 .rectangle1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 178px;
+  height              : 38px;
+  width               : 287px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(49, 164, 171, 1.0);
+}
+.screen21 .rectangle3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 253px;
+  height              : 38px;
+  width               : 287px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  border-style        : solid;
+  border-width        : 0px;
+  border-color        : rgba(49, 164, 171, 1.0);
+}
+.screen21 .mother {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 151px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 0.87);
+  text-align          : justify;
+  line-height         : 20.0px;
+}
+.screen21 .abbey-christensen {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 0.87);
+  text-align          : justify;
+  line-height         : 20.0px;
+}
+.screen21 .ali-connors {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 228px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 0.87);
+  text-align          : justify;
+  line-height         : 20.0px;
+}
+.screen21 .ali-connors1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 268px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 0.87);
+  text-align          : justify;
+  line-height         : 20.0px;
+}
+.screen21 .ali-connors2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 305px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 0.87);
+  text-align          : justify;
+  line-height         : 20.0px;
+}
+.screen21 .ali-connors3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 334px;
+  height              : auto;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 300px;
+  font-family         : "Futura-Medium", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(19, 107, 113, 0.87);
+  text-align          : justify;
+  line-height         : 47.0px;
+}
+.screen21 .add-contact-number {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 350px;
+  height              : auto;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : left;
+  line-height         : 14.65px;
+}
+.screen21 .contact-white-list {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 110px;
+  height              : auto;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 44px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : left;
+  line-height         : 14.65px;
+}
+.screen21 .back {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 43px;
+  height              : 14px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  opacity             : 0.64;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

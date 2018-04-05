@@ -1,0 +1,472 @@
+
+
+.iphone8-copy {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 667px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.iphone8-copy .avatar {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 80px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+}
+.iphone8-copy .avatar1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 152px;
+  height              : 51px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+}
+.iphone8-copy .avatar2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 225px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+}
+.iphone8-copy .avatar3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 297px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+}
+.iphone8-copy .avatar4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 369px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+}
+.iphone8-copy .avatar5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 441px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+}
+.iphone8-copy .avatar6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 511px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+}
+.iphone8-copy .elisa-jack-tom-emma {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 95px;
+  height              : auto;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 129px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : left;
+  line-height         : 14.65px;
+}
+.iphone8-copy .a3-meals-together3-m {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 94px;
+  height              : auto;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 172px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : right;
+  line-height         : 14.65px;
+}
+.iphone8-copy .friends {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 149px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.iphone8-copy .back {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 43px;
+  height              : 14px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  opacity             : 0.64;
+}
+.iphone8-copy .oval2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 618px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 190px;
+}
+.iphone8-copy .group {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 618px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 175px;
+}
+.iphone8-copy .group .oval21 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 10px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.iphone8-copy .add-button {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 27px;
+  height              : 46px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+}
+.iphone8-copy .add-button .add-button1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 8px;
+  height              : 30px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.iphone8-copy .add-button .add-button1 .oval3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 29px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.iphone8-copy .add-button .label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  font-family         : "Futura-Medium", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(231, 244, 246, 1.0);
+  text-align          : center;
+  line-height         : 47.0px;
+}
+.iphone8-copy .blur {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 667px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.iphone8-copy .blur .modal-overlay {
+  background          : rgba(0, 0, 0, 0.1);
+  top                 : 0px;
+  height              : 667px;
+  width               : 375px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.iphone8-copy .add-friend {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 221px;
+  height              : 210px;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+}
+.iphone8-copy .add-friend .alert {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 210px;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.iphone8-copy .add-friend .alert .alert-background {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 210px;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.iphone8-copy .add-friend .alert .title {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(3, 3, 3, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.41px;
+  line-height         : 20.0px;
+}
+.iphone8-copy .add-friend .buttons {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 75px;
+  height              : 45px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.iphone8-copy .add-friend .buttons .path {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 2px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.iphone8-copy .add-friend .buttons .scan-code {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  font-family         : "Futura-Medium", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(0, 122, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.41px;
+  line-height         : 23.0px;
+}
+.iphone8-copy .add-friend .buttons1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : 43px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.iphone8-copy .add-friend .buttons1 .path1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 2px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.iphone8-copy .add-friend .buttons1 .enter-account {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  font-family         : "Futura-Medium", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(0, 122, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.41px;
+  line-height         : 23.0px;
+}
+.iphone8-copy .add-friend .buttons2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 160px;
+  height              : 44px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.iphone8-copy .add-friend .buttons2 .path2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3px;
+  height              : 2px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.iphone8-copy .add-friend .buttons2 .cancel {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  font-family         : "Futura-Medium", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(0, 122, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.41px;
+  line-height         : 23.0px;
+}
+.iphone8-copy .add-friend .path3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 118px;
+  height              : 1px;
+  width               : 270px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.iphone8-copy .add-friend .enter-phone-number {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 130px;
+  height              : auto;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50px;
+  font-family         : "Futura-Medium", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(0, 122, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.41px;
+  line-height         : 23.0px;
+}
+.iphone8-copy .add-friend .buttons3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 132px;
+  height              : 33px;
+  width               : 54px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
