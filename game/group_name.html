@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="/css/common.css"> 
     <link rel="stylesheet" href="/game/css/game.css">    
     <!--include your own css like above--> 
-    <script src="/js/common.js" type="module"></script>    
+    <script src="/js/common.js" type="module"></script>  
+    <script src="/game/js/group.js" type="module"></script>    
     
     <!--include your own script as a module like above-->   
 </head>
@@ -19,21 +20,24 @@
     <div class="container">
         <div class='group'>
             <div class='header'>
-                <div class="header-text">Group yeah</div>
-                <div class="header-graphic"><img class ="meal-img" src="img/meal.png"></div>
+                <div class="header-text">Start Your Meal Group</div>
+                <div class="header-graphic"><i class="fa fa-wifi"></i></div>
+                <div class="header-graphic">
+                    <i class="fas fa-mobile-alt"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
             </div>
             
             <div class='content'>
                 <div class="text auth-btn">
                     <a class="text">
-                            Time Left:                            35 mintues 
-                            <br>
-                            Expected Rewards:               20 points
+                        Please enter your group name. Only one member in this group need to enter a name.
                     </a>
                 </div>
-                <a class="button small-button"  href="group_add_time.html" >Add time</a>
-                <a class="button small-button" href="group_finish.html" >End earlier</a>
-                <a class="button small-button" href="group_finish.html" >Quit game</a>
+                <input class= "input auth-btn" id="group_name" placeholder="Group name..">
+                <a class="button auth-btn" id="group_name_submit">Submit</a>
+                
             </div>
         </div>
     </div>
