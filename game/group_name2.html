@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="/css/common.css"> 
     <link rel="stylesheet" href="/game/css/game.css">    
     <!--include your own css like above--> 
-    <script src="/js/common.js" type="module"></script>    
+    <script src="/js/common.js" type="module"></script>  
+    <script src="/game/js/group.js" type="module"></script>    
     
     <!--include your own script as a module like above-->   
 </head>
@@ -20,21 +21,23 @@
         <div class='group'>
             <div class='header'>
                 <div class="header-groupname"></div>
-                <div class="header-graphic"><img class ="meal-img" src="img/faces.png"></div>
+                <div class="header-graphic"><i class="fa fa-wifi"></i></div>
+                <div class="header-graphic">
+                    <i class="fas fa-mobile-alt"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
             </div>
             
             <div class='content'>
                 <div class="text auth-btn">
                     <a class="text">
-                            <p>Congratulations! </p>
-                            <p>You just finished a nice meal together and earned 15 points!</p>
-                            <!-- <p>Total Meal Game Time: 1019 Minutes</p>
-                            <p>Meal Number:15 </p> -->
-                            <p>Total Rewards: 603 Points</p>
+                        <p>Start group meal game by putting all your phones near each other.</p> 
+                        <p>Wait until a your screen shows that you have successfully joined a group.</p>
                     </a>
                 </div>
-                <a class="button small-button"  href="../profile.html" >Back to Profile</a>
-                <a class="button small-button" href="../redeem.html" >Redeem Rewards</a>
+                <a class="button auth-btn" id="group_name_submit" href="group_start.html">Okay</a>
+                
             </div>
         </div>
     </div>

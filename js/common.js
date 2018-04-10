@@ -10,13 +10,14 @@ export let state = {
         {
             id:uniqueId('user_'),
             name:'Bella',
-            totalMealGameTime: 1019,
+            totalMealGameTime: 1059,
             mealNumber: 15,
             rewards: 603,
             whitelist:{}, //array or dictionary?
             history:{},
             redeem:{},
-            friends:{}
+            friends:{},
+            meal_group: "",
         }
     ],
     
@@ -39,7 +40,7 @@ export const loadState = () => {
 export const saveState = (state) => {
 	try {
 		const serializedState = JSON.stringify(state);
-		// console.log('saveState',serializedState);
+		console.log('saveState',serializedState);
 		localStorage.setItem('state', serializedState);
 
 	} catch (err) {
@@ -57,6 +58,8 @@ function initialize() {
     if (prevState != null) {
         state = prevState; 
     }
+    // state = null; 
+    // saveState(state);
     console.log('state loaded...', state);
 }
 
