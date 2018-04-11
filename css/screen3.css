@@ -1,0 +1,689 @@
+
+
+.screen3 {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 667px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.screen3 .rectangle2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 667px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.screen3 .you {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 270px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 22.65px;
+}
+.screen3 .nina {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 344px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 22.65px;
+}
+.screen3 .tom {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 270px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 22.65px;
+}
+.screen3 .jack {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 344px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 22.65px;
+}
+.screen3 .back {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 43px;
+  height              : 14px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  opacity             : 0.64;
+}
+.screen3 .dinner-at-viale {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 93px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.screen3 .happy1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 233px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.screen3 .happy1 .shape {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 29px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.screen3 .happy1 .shape1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.screen3 .happy1 .shape2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.screen3 .happy1 .shape3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen3 .happy1 .shape4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 7px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.screen3 .happy1 .shape5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : 11px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.screen3 .happy1 .oval {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.screen3 .happy1 .oval1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.screen3 .happy11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 307px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+}
+.screen3 .happy11 .shape6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 29px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.screen3 .happy11 .shape7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.screen3 .happy11 .shape8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.screen3 .happy11 .shape9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen3 .happy11 .shape10 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 7px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.screen3 .happy11 .shape11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : 11px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.screen3 .happy11 .oval2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.screen3 .happy11 .oval3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.screen3 .time-left35-mintue {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 457px;
+  height              : auto;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : left;
+  line-height         : 22.65px;
+}
+.screen3 .cells-button-cell2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 553px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.screen3 .cells-button-cell2 .cell {
+  background          : rgba(232, 245, 246, 0.5);
+  top                 : 0px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen3 .cells-button-cell2 .label {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.29px;
+  line-height         : 13.0px;
+}
+.screen3 .happy12 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 233px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 254px;
+}
+.screen3 .happy12 .shape12 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 29px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.screen3 .happy12 .shape13 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.screen3 .happy12 .shape14 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.screen3 .happy12 .shape15 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen3 .happy12 .shape16 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 7px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.screen3 .happy12 .shape17 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : 11px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.screen3 .happy12 .oval4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.screen3 .happy12 .oval5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.screen3 .happy13 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 307px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 254px;
+}
+.screen3 .happy13 .shape18 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 29px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.screen3 .happy13 .shape19 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.screen3 .happy13 .shape20 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.screen3 .happy13 .shape21 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen3 .happy13 .shape22 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20px;
+  height              : 7px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+}
+.screen3 .happy13 .shape23 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18px;
+  height              : 11px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+}
+.screen3 .happy13 .oval6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.screen3 .happy13 .oval7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+}
+.screen3 .rectangle3 {
+  background          : rgba(215, 215, 215, 0.2);
+  top                 : 200px;
+  height              : 175px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+  border-radius       : 8px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(19, 107, 113, 1.0);
+}
+.screen3 .cells-button-cell21 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 591px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.screen3 .cells-button-cell21 .cell1 {
+  background          : rgba(232, 245, 246, 0.5);
+  top                 : 0px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen3 .cells-button-cell21 .label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.29px;
+  line-height         : 13.0px;
+}
+.screen3 .dining512 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 310px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  opacity             : 0.44;
+}
+.screen3 .dining5121 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 236px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  opacity             : 0.44;
+}
+.screen3 .dining5122 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 310px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+  opacity             : 0.44;
+}
+.screen3 .cells-button-cell22 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 591px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 236px;
+}
+.screen3 .cells-button-cell22 .cell2 {
+  background          : rgba(232, 245, 246, 0.5);
+  top                 : 0px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen3 .cells-button-cell22 .label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.41px;
+  line-height         : 13.0px;
+}
+.screen3 .dining5123 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 236px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+  opacity             : 0.44;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

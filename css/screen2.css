@@ -1,0 +1,775 @@
+
+
+.screen2 {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 667px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.screen2 .rectangle2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 667px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 8px;
+}
+.screen2 .back {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 43px;
+  height              : 14px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  opacity             : 0.64;
+}
+.screen2 .dinner-at-viale {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 93px;
+  height              : auto;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.screen2 .you {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 270px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 22.65px;
+}
+.screen2 .nina {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 344px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 22.65px;
+}
+.screen2 .tom {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 270px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 22.65px;
+}
+.screen2 .jack {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 344px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 22.65px;
+}
+.screen2 .label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 313px;
+  height              : auto;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 254px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : center;
+  line-height         : 22.65px;
+}
+.screen2 .time-left35-mintue {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 457px;
+  height              : auto;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(18, 108, 113, 1.0);
+  text-align          : left;
+  line-height         : 22.65px;
+}
+.screen2 .cells-button-cell2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 553px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.screen2 .cells-button-cell2 .cell {
+  background          : rgba(232, 245, 246, 0.5);
+  top                 : 0px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .cells-button-cell2 .label {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.29px;
+  line-height         : 13.0px;
+}
+.screen2 .rectangle3 {
+  background          : rgba(215, 215, 215, 0.2);
+  top                 : 200px;
+  height              : 175px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 135px;
+  border-radius       : 8px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(19, 107, 113, 1.0);
+}
+.screen2 .cells-button-cell21 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 591px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+}
+.screen2 .cells-button-cell21 .cell1 {
+  background          : rgba(232, 245, 246, 0.5);
+  top                 : 0px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .cells-button-cell21 .label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.29px;
+  line-height         : 13.0px;
+}
+.screen2 .dining512 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 310px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  opacity             : 0.44;
+}
+.screen2 .dining5121 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 236px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+  opacity             : 0.44;
+}
+.screen2 .dining5122 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 310px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+  opacity             : 0.44;
+}
+.screen2 .cells-button-cell22 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 591px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 236px;
+}
+.screen2 .cells-button-cell22 .cell2 {
+  background          : rgba(232, 245, 246, 0.5);
+  top                 : 0px;
+  height              : 23px;
+  width               : 101px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .cells-button-cell22 .label3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(19, 107, 113, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.41px;
+  line-height         : 13.0px;
+}
+.screen2 .dining5123 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 236px;
+  height              : 30px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  -ms-transform       : rotate(-90deg); /* IE 9 */
+  -webkit-transform   : rotate(-90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-90deg);
+  opacity             : 0.44;
+}
+.screen2 .crying {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 233px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 254px;
+}
+.screen2 .crying .shape {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : 8px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.screen2 .crying .shape1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 27px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.screen2 .crying .shape2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 21px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.screen2 .crying .shape3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 31px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.screen2 .crying .shape4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 3px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.screen2 .crying .shape5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.screen2 .crying .shape6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .crying .shape7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 20px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.screen2 .crying .shape8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 20px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.screen2 .crying1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 233px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.screen2 .crying1 .shape9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : 8px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.screen2 .crying1 .shape10 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 27px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.screen2 .crying1 .shape11 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 21px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.screen2 .crying1 .shape12 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 31px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.screen2 .crying1 .shape13 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 3px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.screen2 .crying1 .shape14 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.screen2 .crying1 .shape15 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .crying1 .shape16 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 20px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.screen2 .crying1 .shape17 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 20px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.screen2 .crying2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 307px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+}
+.screen2 .crying2 .shape18 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 24px;
+  height              : 8px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.screen2 .crying2 .shape19 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 27px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+}
+.screen2 .crying2 .shape20 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 12px;
+  height              : 21px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+}
+.screen2 .crying2 .shape21 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 31px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+}
+.screen2 .crying2 .shape22 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 3px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+}
+.screen2 .crying2 .shape23 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2px;
+  height              : 24px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+}
+.screen2 .crying2 .shape24 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .crying2 .shape25 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 20px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+}
+.screen2 .crying2 .shape26 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 14px;
+  height              : 20px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+}
+.screen2 .oval {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 309px;
+  height              : 34px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 255px;
+}
+.screen2 .amazed {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 307px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 254px;
+}
+.screen2 .amazed .shape27 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 37px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .views-alerts-one-button {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : -2px;
+  height              : 667px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .views-alerts-one-button .modal-overlay {
+  background          : rgba(0, 0, 0, 0.1);
+  top                 : 0px;
+  height              : 667px;
+  width               : 375px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .views-alerts-one-button .alert {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 247px;
+  height              : 189px;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+}
+.screen2 .views-alerts-one-button .alert .alert-background {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 181px;
+  width               : 291px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .views-alerts-one-button .alert .buttons {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 135px;
+  height              : 54px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+}
+.screen2 .views-alerts-one-button .alert .buttons .path {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.screen2 .views-alerts-one-button .alert .buttons .o-k {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(0, 122, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.41px;
+  line-height         : 20.0px;
+}
+.screen2 .views-alerts-one-button .alert .description {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 49px;
+  height              : auto;
+  width               : 256px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(3, 3, 3, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.08px;
+  line-height         : 16.0px;
+}
+.screen2 .views-alerts-one-button .alert .title {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 23px;
+  height              : auto;
+  width               : 250px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  font-family         : "San Francisco", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(3, 3, 3, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.41px;
+  line-height         : 20.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
