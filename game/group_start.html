@@ -36,50 +36,46 @@
             <div class='content'>
                 <div class="text auth-btn">
                     <a class="text">
-                            Yay! 
-                            You have joined a group! 
-                            There are four people in your group.
-                            <br>
-                            Please estimate meal time:
+                            <p>Yay! You have joined a group! </p>
+                            <p></p>There are four people in your group.</p>
+                            <p>Please estimate meal time:</p>
+                            
                     </a>
                 </div>
 
-
                 <div class="button-container">
                     <div class="inline-buttons">
-
-                        <div class="dropdown show auth-btn dropdown-toggle-split" id="hour-selector">
-                            <a class="btn btn-secondary dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Hours
-                            </a>
-                        
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item active">0</a>
-                                <a class="dropdown-item">1</a>
-                                <a class="dropdown-item">2</a>
-                                <a class="dropdown-item">3</a>
-                            </div>
+                        <div>
+                            <input id="hour" Class="form-control dropdown-friend-show"></input>
+                            <button class="btn dropdown-toggle dropdown-friend-toggle" data-toggle="dropdown"></button>
+                            <ul id="hourlist" class="dropdown-menu">
+                                <li><a >0 hour</a></li>
+                                <li><a >1 hour</a></li>
+                                <li><a >2 hours</a></li>
+                                <li><a >3 hours</a></li>
+                            </ul>
                         </div>
-                        <div class="dropdown show auth-btn dropdown-toggle-split">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Minutes
-                            </a>
-                        
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item">10</a>
-                                <a class="dropdown-item">20</a>
-                                <a class="dropdown-item">30</a>
-                                <a class="dropdown-item active">40</a>
-                                <a class="dropdown-item">50</a>
-                            </div>
+                        <div>
+                            <input id="minute" Class="form-control dropdown-friend-show"></input>
+                            <button class="btn dropdown-toggle dropdown-friend-toggle" data-toggle="dropdown"></button>
+                            <ul id="minutelist" class="dropdown-menu">
+                                <li><a >10 min</a></li>
+                                <li><a >20 min</a></li>
+                                <li><a >30 min</a></li>
+                                <li><a >40 min</a></li>
+                                <li><a >50 min</a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
+                </div> 
+
                 
-                <div class="button small-button" href="group.html" >Submit</div>
-                <div class="button small-button" href="group_invite.html" >Invite Another Friend</div>
-                
+                <a class="button auth-btn" href="group.html" >Submit</a>
+                <a class="button auth-btn" href="group_invite.html" >Invite Another Friend</a>
             </div>
+
+            
+
         </div>
     </div>
 </body>

@@ -20,6 +20,7 @@
     
     <script src="/js/common.js" type="module"></script>
     <script src="/game/js/group.js" type="module"></script>    
+    <script src="/game/js/group_start.js" type="module"></script>    
     <!--include your own script as a module like above-->   
 </head>
 <body>
@@ -43,19 +44,20 @@
                     </a>
                 </div>
 
-                <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       Dropdown link
-                    </a>
-                  
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="#">Anna</a>
-                      <a class="dropdown-item" href="#">Ben</a>
-                      <a class="dropdown-item" href="#">James</a>
+                <div>
+                        <input id="hour" Class="form-control dropdown-friend-show"></input>
+                        <button class="btn dropdown-toggle dropdown-friend-toggle" data-toggle="dropdown"></button>
+                        <ul id="hourlist" class="dropdown-menu">
+                            <li><a >Anna</a></li>
+                            <li><a >James</a></li>
+                            <li><a >Toby</a></li>
+                            <li><a >Emma</a></li>
+                            <li><a >Alice</a></li>
+                        </ul>
                     </div>
-                </div>
-
-                <a class="btn btn-primary btn-block" href="group.html" >Invite</a>
+                
+                <a class="button auth-btn" href="group.html" >Invite</a>
+                <!-- <a class="btn btn-primary btn-block" href="group.html" >Invite</a> -->
             </div>
         </div>
     </div>

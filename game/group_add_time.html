@@ -20,7 +20,8 @@
     
     <script src="/js/common.js" type="module"></script>
     <script src="/game/js/group.js" type="module"></script>    
-    
+    <script src="/game/js/group_start.js" type="module"></script>    
+
     <!--include your own script as a module like above-->   
 </head>
 <body>
@@ -35,10 +36,35 @@
                 <div class="text auth-btn">
                     <a class="text">
 
-                            Please add meal time:
+                            <p>Please add meal time:</p>
                     </a>
                 </div>
-                <input class= "input auth-btn" id="meal_time" placeholder="Meal time..">
+                
+                <div class="button-container">
+                        <div class="inline-buttons">
+                            <div>
+                                <input id="hour" Class="form-control dropdown-friend-show"></input>
+                                <button class="btn dropdown-toggle dropdown-friend-toggle" data-toggle="dropdown"></button>
+                                <ul id="hourlist" class="dropdown-menu">
+                                    <li><a >0 hour</a></li>
+                                    <li><a >1 hour</a></li>
+                                    <li><a >2 hours</a></li>
+                                    <li><a >3 hours</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <input id="minute" Class="form-control dropdown-friend-show"></input>
+                                <button class="btn dropdown-toggle dropdown-friend-toggle" data-toggle="dropdown"></button>
+                                <ul id="minutelist" class="dropdown-menu">
+                                    <li><a >10 min</a></li>
+                                    <li><a >20 min</a></li>
+                                    <li><a >30 min</a></li>
+                                    <li><a >40 min</a></li>
+                                    <li><a >50 min</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
                 <a class="button auth-btn" href="group.html" >Submit</a>
 
             </div>
