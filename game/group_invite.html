@@ -7,17 +7,19 @@
     <link rel="icon" type="image/png" href="/img/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/common.css"> 
-    <link rel="stylesheet" href="/game/css/game.css">    
-    <!--include your own css like above--> 
-    <script src="/js/common.js" type="module"></script>    
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-
     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/common.css"> 
+    <link rel="stylesheet" href="/game/css/game.css">
+    <!--include your own css like above--> 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    
+    <script src="/js/common.js" type="module"></script>
+    <script src="/game/js/group.js" type="module"></script>    
     <!--include your own script as a module like above-->   
 </head>
 <body>
@@ -41,20 +43,19 @@
                     </a>
                 </div>
 
-                <!-- Dropdown Trigger -->
-                <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+                <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Dropdown link
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Anna</a>
+                      <a class="dropdown-item" href="#">Ben</a>
+                      <a class="dropdown-item" href="#">James</a>
+                    </div>
+                </div>
 
-                <!-- Dropdown Structure -->
-                <ul id='dropdown1' class='dropdown-content'>
-                    <li><a href="#!">one</a></li>
-                    <li><a href="#!">two</a></li>
-                    <li class="divider" tabindex="-1"></li>
-                    <li><a href="#!">three</a></li>
-                    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-                    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-                </ul>
-
-                <a class="button auth-btn" href="group.html" >Invite</a>
+                <a class="btn btn-primary btn-block" href="group.html" >Invite</a>
             </div>
         </div>
     </div>

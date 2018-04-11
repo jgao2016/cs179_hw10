@@ -50,7 +50,14 @@
     margin-right: auto;
 }
 .small-button{
-    display: block;
-    width: 35%;
+    display: inline-block;
+    width: 50%;
     margin-top: 20px;
+}
+.inline-buttons{
+    display: flex;
+    width: 80%;
+}
+.button-container{
+    display: block;
 }
