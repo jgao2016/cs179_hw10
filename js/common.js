@@ -4,7 +4,6 @@ import { uniqueId } from './utils.js';
 export let state = {
     session:{// contain current user and other information etc
         user:null,
-
     },
     users :[
         {
