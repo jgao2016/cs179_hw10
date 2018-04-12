@@ -6,16 +6,76 @@
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/png" href="/img/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="/css/common.css">    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="/css/common.css">   
+    <link rel="stylesheet" href="/css/profile.css">    
     <!--include your own css like above--> 
     <script src="/js/common.js" type="module"></script>    
+    
     <!--include your own script as a module like above-->   
 </head>
 <body>
     
     <div class="container">
         <!--place content inside the container-->
+        <div class='profile'>
+            <div class='header'>
+                <div class="header-graphic"><img class ="photo-img" src="img/photo.png"></div>
+                <div class="header-text">Bella</div>
+            </div>
 
+            <div class='content'>
+                <table class="text">
+                    <tr>
+                        <td>Total Meal Game Time:</td>
+                        <td>4.5 hours </td>
+                    </tr>
+                    <tr>
+                        <td>Meal Number:</td> 
+                        <td>8</td> 
+                    </tr>
+                    <tr>
+                        <td>Rewards:</td>
+                        <td>305</td>
+                    </tr>
+                </table>
+                
+                <a class="button auth-btn"  href="game/group_name.html">Start Meal Game</a>
+
+                <div class="text">
+                    <br>
+                    <p> You can start tracking your phone usage during dinner time here:</p>
+                </div>
+                <table class="text-time">
+                        <tr>
+                            <td>  Time:</td>
+                            <td>0 min </td>
+                        </tr>
+                    </table>
+                <div class="button-container">
+                    <a class="button inline-button left" >Start</a>
+                    <a class="button inline-button right" >End</a>
+                </div>
+            
+                
+            </div>
+            <div class="navigation">
+                <div class="button-container">
+                        <a class="button navigation-button" href="friends.html" ><i class="fas fa-users navigation-graphic"></i></a>
+                        <a class="button navigation-button" href="history.html" ><i class="fas fa-chart-line navigation-graphic"></i></a>
+                        <a class="button navigation-button" href="redeem.html" ><i class="fas fa-gift navigation-graphic"></i></a>
+                        <a class="button navigation-button" href="whitelist_contacts.html" ><i class="fas fa-unlock-alt navigation-graphic"></i></a>
+                </div>
+                    <div class="button-container">
+                        <a class="navigation-entry" href="friends.html" > Friends</i></a>
+                        <a class="navigation-entry"  href="history.html" > History</i></a>
+                        <a class="navigation-entry"  href="redeem.html" > Redeem</i></a>
+                        <a class="navigation-entry"  href="whitelist_contacts.html" > Whitelist</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
