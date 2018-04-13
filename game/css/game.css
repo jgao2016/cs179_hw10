@@ -1,0 +1,72 @@
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 45vh;
+}
+
+.header-text{
+    margin-top: 10vh;
+    font-size: 25px;
+    margin-bottom: 10vh;
+}
+
+.header-groupname{
+    margin-top: 2vh;
+    font-size: 25px;
+    margin-bottom: 2vh;
+    
+}
+.header-graphic{
+    margin-top: 5vh;
+    font-size: 32px;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    height: 50vh;
+}
+.text{
+    color:#004D40;
+    /* display: block; */
+}
+.input{
+    line-height:32px;
+}
+.meal-img{
+    width:60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inline-buttons{
+    display: flex;
+    width: 80%;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-friend-show{
+    display:inline-block;
+    width: 50%;
+    
+}
+.dropdown-friend-toggle{
+    display:inline-block;
+    width: 20%;
+}
