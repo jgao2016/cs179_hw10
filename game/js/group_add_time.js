@@ -14,15 +14,24 @@ function submit(){
     console.log(state);
 }
 
+
 $('#minutelist li').on('click', function(){
     $('#minute').val($(this).text());
     console.log($(this).text());
-    state.session.user.meal_time_minute=parseInt($(this).text().substring(0,2));
+    let totalmin=state.session.user.meal_time_hour*60+state.session.user.meal_time_minute;
+    let addmin=parseInt($(this).text().substring(0,2));
+    totalmin=totalmin+addmin;
+    state.session.user.meal_time_hour= Math.floor(totalmin /60);
+    state.session.user.meal_time_minute= totalmin % 60;
     saveState(state);
 });
 $('#hourlist li').on('click', function(){
     $('#hour').val($(this).text());
     console.log($(this).text());
-    state.session.user.meal_time_hour=parseInt($(this).text().substring(0,1));
+    let totalmin=state.session.user.meal_time_hour*60+state.session.user.meal_time_minute;
+    let addhour=parseInt($(this).text().substring(0,1));
+    totalmin=totalmin + addhour*60;
+    state.session.user.meal_time_hour= Math.floor(totalmin /60);
+    state.session.user.meal_time_minute= totalmin % 60;
     saveState(state);
 });

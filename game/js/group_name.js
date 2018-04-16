@@ -19,7 +19,10 @@ if (state.session.user==null){
     window.location =  '/';
 }
 
-document.getElementById("group_name_submit").addEventListener("click", function(){
+document.getElementById("group_name_submit1").addEventListener("click", function(){
+    submit();
+});
+document.getElementById("group_name_submit2").addEventListener("click", function(){
     submit();
 }); 
 

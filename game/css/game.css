@@ -20,7 +20,7 @@
 }
 
 .header-groupname{
-    margin-top: 2vh;
+    margin-top: 6vh;
     font-size: 25px;
     margin-bottom: 2vh;
     
@@ -37,10 +37,21 @@
     justify-content: center;
     width:80%;
     height: 50vh;
+    
 }
 .text{
     color:#004D40;
     /* display: block; */
+    width:80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.small-text{
+    color:grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: underline;
 }
 .input{
     line-height:32px;
@@ -63,7 +74,7 @@
 }
 .dropdown-friend-show{
     display:inline-block;
-    width: 50%;
+    width: 74%;
     
 }
 .dropdown-friend-toggle{

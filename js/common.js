@@ -17,6 +17,8 @@ export let state = {
             redeem:{},
             friends:{},
             meal_group: "",
+            meal_time_hour: 0,
+            meal_time_minute: 0,
         }
     ],
     
