@@ -9,8 +9,19 @@ $(document).ready(function(){
         addContact();
     });
 
-// create the add contact function
-// defines what the function is to add a new sticky note
+// create the add whitelist apps function
+function addToWhitelist (image) {
+    console.log(image.style);
+    if (image.style.opacity==0.25) {
+        image.style.opacity=1.0 
+    }
+    else {
+        image.style.opacity=0.25
+    }
+}
+console.log(addToWhitelist);
+
+// create the add whitelist contacts function
 function addContact(){
     var name = $('#text').val();
     var number = $('#number').val();
@@ -27,4 +38,3 @@ function addContact(){
     `)
 }
 });
-

@@ -8,7 +8,7 @@ var chart = new Chart(ctx, {
         datasets: [{
             label: "Time distribution",
             backgroundColor: ["#53868B", "#66CCCC", "#AEEEEE", "#37FDFC", "#00CDCD", "#E0FFFF", "#63D1F4", "#0EBFE9"],
-            data: [30, 20, 20, 6, 5, 5, 10, 4],
+            data: [10, 5, 32, 3, 15, 10, 18, 7],
         }]
     },
     // configuration options go here
@@ -21,11 +21,11 @@ var chart = new Chart(ctx, {
     type: 'line',
     // the data for our dataset
     data: {
-        labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        labels: ["1", "2", "3"],
         datasets: [{
-            label: "Time distribution in hours (past year *12 months)",
+            label: "Time distribution in hours (past 3 days)",
             backgroundColor: "#66CCCC",
-            data: [30, 20, 20, 6, 5, 5, 10, 4, 7, 2, 12, 14],
+            data: [1, 3, 4],
         }]
     },
     // configuration options go here
@@ -49,4 +49,3 @@ btn.addEventListener("click", function() {
     document.querySelector('.piechart').style.display='none';
     document.querySelector('.linechart').style.display='block';
 }); 
-
