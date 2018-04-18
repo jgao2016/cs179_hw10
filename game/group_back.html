@@ -19,9 +19,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     
     <script src="/js/common.js" type="module"></script>
-    <script src="/game/js/group_finish.js" type="module"></script>      
-    
-    <!--include your own script as a module like above-->   
+    <script src="/game/js/group.js" type="module"></script>
+ 
 </head>
 <body>
     
@@ -29,19 +28,19 @@
         <div class='group'>
             <div class='header'>
                 <div class="header-groupname"></div>
-                <div class="header-graphic"><img class ="meal-img" src="img/faces.png"></div>
+                <div class="header-graphic"><img class ="meal-img" id="meal-smile-cry" src="img/meal.png"></div>
             </div>
             
-            <div class='content'>
+            <div class="content">
                 <div class="text">
-                    <a class="text">
-                            <p>Congratulations! </p>
-                            <p id="point"></p>
-                            <p>Total Rewards: 610 Points</p>
-                    </a>
+                    
+                    <p id ="meal-time"></p>
+                    <p id="point"></p>
+                     
                 </div>
-                <a class="button auth-btn"  href="../profile.html" >Back to Profile</a>
-                <a class="button auth-btn" href="../redeem.html" >Redeem Rewards</a>
+                <a class="button auth-btn"  href="group_add_time.html" >Add time</a>
+                <a class="button auth-btn" href="group_finish.html" >End earlier</a>
+                <!-- <a class="button auth-btn" href="group_finish.html" >Quit game</a> -->
             </div>
         </div>
     </div>

@@ -23,6 +23,7 @@ $('#minutelist li').on('click', function(){
     totalmin=totalmin+addmin;
     state.session.user.meal_time_hour= Math.floor(totalmin /60);
     state.session.user.meal_time_minute= totalmin % 60;
+    state.session.user.meal_reward=totalmin;
     saveState(state);
 });
 $('#hourlist li').on('click', function(){
@@ -33,5 +34,6 @@ $('#hourlist li').on('click', function(){
     totalmin=totalmin + addhour*60;
     state.session.user.meal_time_hour= Math.floor(totalmin /60);
     state.session.user.meal_time_minute= totalmin % 60;
+    state.session.user.meal_reward=totalmin;
     saveState(state);
 });
