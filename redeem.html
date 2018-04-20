@@ -18,6 +18,8 @@
   <style>
     .table td{
       vertical-align: middle;
+      padding: 0.25rem;
+      text-align: center;
     }
   </style>
 </head>
@@ -30,28 +32,28 @@
       <table class="table">
         <thead>
           <tr>
-            <th scope="col">Restaurant</th>
-            <th scope="col">Points</th>
-            <th scope="col">Rewards</th>
+            <th  style="width: 8%" scope="col">Restaurant</th>
+            <th  style="width: 5%" scope="col">Points</th>
+            <th  style="width: 5%"scope="col">Rewards</th>
             <th></th>
           </tr>
         </thead>
         <tbody class="rewards-list">
           <tr>
-            <td style="width: 8%" ><img src="img/starbucks.png" class="img-fluid"></td>
-            <td style="width: 8%">200 points</td>
-            <td style="width: 10%">
-              $5 off
+            <td ><img src="img/starbucks.png" class="img-fluid"></td>
+            <td >200 points</td>
+            <td >
+              $10 off
             </td>
-            <td><button type="button" class="btn btn-primary btn-sm redeem" data-point="200">Redeem</button></td>
+            <td><button type="button" class="btn btn-primary btn-sm btn-block redeem" data-point="200" data-img="img/starbucks.png">Redeem</button></td>
           </tr>
           <tr>
             <td><img src="img/felipeslogo.png" class="img-fluid"></td>
             <td>100 points</td>
             <td>
-              $5 off
+              $7 off
             </td>
-            <td><button type="button" class="btn btn-primary btn-sm redeem" data-point="100">Redeem</button></td>
+            <td><button type="button" class="btn btn-primary btn-sm btn-block redeem" data-point="100" data-img="img/felipeslogo.png">Redeem</button></td>
           </tr>
           <tr>
             <td><img src="img/mcdonalds.png" class="img-fluid"></td>
@@ -59,7 +61,7 @@
             <td>
               $5 off
             </td>
-            <td><button type="button" class="btn btn-primary btn-sm redeem" data-point="50">Redeem</button></td>
+            <td><button type="button" class="btn btn-primary btn-sm btn-block redeem" data-point="50" data-img="img/mcdonalds.png">Redeem</button></td>
           </tr>
         </tbody>
       </table>
@@ -67,13 +69,14 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Redeem Your Reward</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="modal-body">
-              <td style="width: 10%" ><img src="img/starbucks.png" class="img-fluid"></td>
+            <div class="modal-body" style="display: flex; flex-direction: column; align-items: center;">
+              <div style="width: 50%; margin-bottom: 20px;" ><img id="redeem-img" src="img/starbucks.png" class="img-fluid"></div>
+              <div style="width: 50%" ><img src="img/qrcode.png" class="img-fluid"></div>
             </div>
           </div>
         </div>

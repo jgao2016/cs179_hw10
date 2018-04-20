@@ -17,14 +17,21 @@ buttons.forEach(function(button){
 
         if (this.textContent == "Show Rewards"){
             this.setAttribute("data-toggle", "modal")
+            document.querySelector('#redeem-img').src = this.dataset.img;
+        }else{
+            this.textContent = "Show Rewards"
+            event.preventDefault();
+            totalpoints -= parseInt(this.dataset.point);
+            if (totalpoints <= 0)
+            {
+                totalpoints = 0
+            }
+           
         }
-        this.textContent = "Show Rewards"
-        event.preventDefault();
-        totalpoints -= parseInt(this.dataset.point);
-        if (totalpoints <= 0)
-        {
-            totalpoints = 0
-        }
+        
+        // console.log(this.dataset.img);
+       
+ 
         updatePoints(totalpoints);
         console.log(this.dataset.point)
         
