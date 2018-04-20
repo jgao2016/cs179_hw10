@@ -16,8 +16,8 @@
     <script src="js/common.js" type="module"></script>  
     <!-- <script src="js/whitelist.js" type="module"></script>     -->
     <!--include your own script as a module like above--> 
-    <script src="js/whitelist_contacts.js" type="module"></script>
-    <script src="js/whitelist_apps.js"></script>
+    <!-- <script src="js/whitelist_contacts.js" type="module"></script> -->
+    <script src="js/whitelist.js"></script>
     <!--connects HTML file to JQuery library file-->
     <script src = "js/jquery.js"></script>
     <style>
@@ -41,6 +41,7 @@
         }
         .content{
             width:90%;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -48,28 +49,27 @@
 <body>
     <div class="container">
         <div class="content">
-            <h2 class="header">
+            <h3 class="header">
                 Whitelist 
-            </h2>
+            </h3>
             <p class="text-muted" style="text-align:justify">These are the contacts and apps you will be able to access and/or receive notifications from during meal times.</p>
             <div class="contacts">
-                <h4>
+                <h5>
                     Contacts
-                </h4>
+                </h5>
                 <ul class="contact_div list-group"></ul>
                 
                 <div class="home">
                     <h6>Add Contact</h6>
-                    <form style="width:90%">
+                    <form style="width:100%">
                         <div class="form-group">
                             <input id="text" class="form-control" placeholder="Enter contact name">
                         </div>
                         <div class="form-group">
                             <input id="number" class="form-control" placeholder="Enter contact number">
                         </div>
-                        
                     </form>
-                    <a id="myBtn" class="button auth-btn" style="width:90%">Add</a>
+                    <a id="myBtn" class="button auth-btn" style="width:100%">Add</a>
                 </div>
                 <!--             
                     <div class="contact_div list-group"></div>
@@ -84,35 +84,35 @@
                     </form> -->
                 </div>
                 <div class="apps">
-                    <h4>
+                    <h5>
                         Apps
-                    </h4>
+                    </h5>
                     <div class = "controls row">
                         <div class="col-2">
-                            <img id="icon1" src="img/twitter.png" class="img-fluid" onclick="addToWhitelist(this)">
+                            <img id="icon1" src="img/twitter.png" class="img-fluid">
                         </div>
                         <div class="col-2">
-                            <img id="icon2" src="img/facebook.png" class="img-fluid" onclick="addToWhitelist(this)">
+                            <img id="icon2" src="img/facebook.png" class="img-fluid">
                         </div>
                         <div class="col-2">
-                            <img id="icon3" src="img/airbnb.png" class="img-fluid" onclick="addToWhitelist(this)">
+                            <img id="icon3" src="img/airbnb.png" class="img-fluid">
                         </div>
                         <div class="col-2">
-                            <img id="icon4" src="img/instagram.png" class="img-fluid" onclick="addToWhitelist(this)">
+                            <img id="icon4" src="img/instagram.png" class="img-fluid">
                         </div>
                         <div class="col-2">
-                            <img id="icon5" src="img/yelp.png" class="img-fluid" onclick="addToWhitelist(this)">
+                            <img id="icon5" src="img/yelp.png" class="img-fluid">
                         </div>
                         <div class="col-2">
-                            <img id="icon6" src="img/messenger.png" class="img-fluid" onclick="addToWhitelist(this)">
+                            <img id="icon6" src="img/messenger.png" class="img-fluid">
                         </div>
                         <div class="col-2">
-                            <img id="icon7" src="img/gmail.png" class="img-fluid" onclick="addToWhitelist(this)">
+                            <img id="icon7" src="img/gmail.png" class="img-fluid">
                         </div>
                     </div> 
                 </div>
                 
-                <div class="home"><a class="button auth-btn" href="profile.html">Back</a>  </div>
+                <div class="home"><a class="button auth-btn" href="profile.html" style="width:100%">Back</a>  </div>
                      
             </div>
             

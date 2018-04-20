@@ -1,3 +1,13 @@
+function addToWhitelist () {
+    if (this.style.opacity==0.25) {
+        this.style.opacity=1.0 
+    }
+    else {
+        this.style.opacity=0.25
+    }
+}
+
+
 $(document).ready(function(){
     // selecting the container div to append contacts to
     var container = $('.contact_div');
@@ -8,18 +18,19 @@ $(document).ready(function(){
         console.log("alert");
         addContact();
     });
+    $('.img-fluid').click(addToWhitelist);
 
 // create the add whitelist apps function
-function addToWhitelist (image) {
-    console.log(image.style);
-    if (image.style.opacity==0.25) {
-        image.style.opacity=1.0 
-    }
-    else {
-        image.style.opacity=0.25
-    }
-}
-console.log(addToWhitelist);
+// function addToWhitelist (image) {
+//     console.log(image.style);
+//     if (image.style.opacity==0.25) {
+//         image.style.opacity=1.0 
+//     }
+//     else {
+//         image.style.opacity=0.25
+//     }
+// }
+// console.log(addToWhitelist);
 
 // create the add whitelist contacts function
 function addContact(){
