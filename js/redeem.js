@@ -15,10 +15,10 @@ buttons.forEach(function(button){
         
         this.setAttribute("data-target", "#exampleModal")
 
-        if (this.textContent == "show rewards"){
+        if (this.textContent == "Show Rewards"){
             this.setAttribute("data-toggle", "modal")
         }
-        this.textContent = "show rewards"
+        this.textContent = "Show Rewards"
         event.preventDefault();
         totalpoints -= parseInt(this.dataset.point);
         if (totalpoints <= 0)
