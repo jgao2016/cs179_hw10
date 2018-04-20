@@ -1,4 +1,4 @@
-import {state, saveState} from '../js/common.js';
+import {state, saveState} from '../../js/common.js';
 
 state.session.user=state.users[0];
 saveState(state);

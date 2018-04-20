@@ -1,4 +1,4 @@
-import {state, saveState} from '../js/common.js';
+import {state, saveState} from '../../js/common.js';
 
 var left=false;
 function stateChange(newState) {
