@@ -22,7 +22,7 @@
     <script src = "js/jquery.js"></script>
     <style>
         .header{
-            margin-top:20px;
+            padding-top:20px;
         }
         .col-2{
             padding:5px;
@@ -35,79 +35,90 @@
         .apps{
             margin-top:20px;
         }
-
+        
         .contact_div{
             margin-bottom: 20px;
+        }
+        .content{
+            width:90%;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h2 class="header">
-            Whitelist 
-        </h2>
-        <p class="text-muted" style="text-align:justify">These are the contacts and apps you will be able to access and/or receive notifications from during meal times.</p>
-        <div class="contacts">
-            <h4>
-                Contacts
-            </h4>
-            <ul class="contact_div list-group"></ul>
-            <h6>Add Contact</h6>
-            <form>
-                <div class="form-group">
-                    <input id="text" class="form-control" placeholder="Enter contact name">
+        <div class="content">
+            <h2 class="header">
+                Whitelist 
+            </h2>
+            <p class="text-muted" style="text-align:justify">These are the contacts and apps you will be able to access and/or receive notifications from during meal times.</p>
+            <div class="contacts">
+                <h4>
+                    Contacts
+                </h4>
+                <ul class="contact_div list-group"></ul>
+                
+                <div class="home">
+                    <h6>Add Contact</h6>
+                    <form style="width:90%">
+                        <div class="form-group">
+                            <input id="text" class="form-control" placeholder="Enter contact name">
+                        </div>
+                        <div class="form-group">
+                            <input id="number" class="form-control" placeholder="Enter contact number">
+                        </div>
+                        
+                    </form>
+                    <a id="myBtn" class="button auth-btn" style="width:90%">Add</a>
                 </div>
-                <div class="form-group">
-                    <input id="number" class="form-control" placeholder="Enter contact number">
+                <!--             
+                    <div class="contact_div list-group"></div>
+                    <form name="myBtnr">
+                        Enter contact name:
+                        <input id="text" type="text">
+                        <br>
+                        Enter contact number:
+                        <input id="number" type="text">
+                        <br>
+                        <a class="waves-effect waves-light btn" id="myBtn">Finish Adding Contacts</a>
+                    </form> -->
                 </div>
-                <a id="myBtn" class="button auth-btn" style="width:100%">Add</a>
-            </form>
+                <div class="apps">
+                    <h4>
+                        Apps
+                    </h4>
+                    <div class = "controls row">
+                        <div class="col-2">
+                            <img id="icon1" src="img/twitter.png" class="img-fluid" onclick="addToWhitelist(this)">
+                        </div>
+                        <div class="col-2">
+                            <img id="icon2" src="img/facebook.png" class="img-fluid" onclick="addToWhitelist(this)">
+                        </div>
+                        <div class="col-2">
+                            <img id="icon3" src="img/airbnb.png" class="img-fluid" onclick="addToWhitelist(this)">
+                        </div>
+                        <div class="col-2">
+                            <img id="icon4" src="img/instagram.png" class="img-fluid" onclick="addToWhitelist(this)">
+                        </div>
+                        <div class="col-2">
+                            <img id="icon5" src="img/yelp.png" class="img-fluid" onclick="addToWhitelist(this)">
+                        </div>
+                        <div class="col-2">
+                            <img id="icon6" src="img/messenger.png" class="img-fluid" onclick="addToWhitelist(this)">
+                        </div>
+                        <div class="col-2">
+                            <img id="icon7" src="img/gmail.png" class="img-fluid" onclick="addToWhitelist(this)">
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="home"><a class="button auth-btn" href="profile.html">Back</a>  </div>
+                     
+            </div>
             
-<!--             
-            <div class="contact_div list-group"></div>
-            <form name="myBtnr">
-                Enter contact name:
-                <input id="text" type="text">
-                <br>
-                Enter contact number:
-                <input id="number" type="text">
-                <br>
-                <a class="waves-effect waves-light btn" id="myBtn">Finish Adding Contacts</a>
-            </form> -->
+            
         </div>
-        <div class="apps">
-            <h4>
-                Apps
-            </h4>
-            <div class = "controls row">
-                    <div class="col-2">
-                        <img id="icon1" src="img/twitter.png" class="img-fluid" onclick="addToWhitelist(this)">
-                    </div>
-                    <div class="col-2">
-                        <img id="icon2" src="img/facebook.png" class="img-fluid" onclick="addToWhitelist(this)">
-                    </div>
-                    <div class="col-2">
-                        <img id="icon3" src="img/airbnb.png" class="img-fluid" onclick="addToWhitelist(this)">
-                    </div>
-                    <div class="col-2">
-                        <img id="icon4" src="img/instagram.png" class="img-fluid" onclick="addToWhitelist(this)">
-                    </div>
-                    <div class="col-2">
-                        <img id="icon5" src="img/yelp.png" class="img-fluid" onclick="addToWhitelist(this)">
-                    </div>
-                    <div class="col-2">
-                        <img id="icon6" src="img/messenger.png" class="img-fluid" onclick="addToWhitelist(this)">
-                    </div>
-                    <div class="col-2">
-                        <img id="icon7" src="img/gmail.png" class="img-fluid" onclick="addToWhitelist(this)">
-                    </div>
-            </div> 
-        </div>
-
-
         
-    </div>
-    <a class="button auth-btn" href="profile.html">Back</a>                                                                                                                                                                        
-</body>
-</html>
+    </body>
+    </html>
+    
