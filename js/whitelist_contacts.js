@@ -25,15 +25,12 @@ console.log(addToWhitelist);
 function addContact(){
     var name = $('#text').val();
     var number = $('#number').val();
-    console.log(name);
-    console.log(number);
+    $('#text').val('');
+    $('#number').val('');
     // appends each new sticky notes into the list
     container.append(`
-        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">${name}</h5>
-            </div>
-            <p class="mb-1">${number}</p>
+        <a href="#" class="list-group-item d-flex justify-content-between">
+            <div> ${name} </div> <div> ${number} </div>
         </a>
     `)
 }

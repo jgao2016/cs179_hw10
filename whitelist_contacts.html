@@ -14,53 +14,99 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="js/common.js" type="module"></script>  
-    <script src="js/whitelist.js" type="module"></script>    
+    <!-- <script src="js/whitelist.js" type="module"></script>     -->
     <!--include your own script as a module like above--> 
     <script src="js/whitelist_contacts.js" type="module"></script>
     <script src="js/whitelist_apps.js"></script>
     <!--connects HTML file to JQuery library file-->
     <script src = "js/jquery.js"></script>
+    <style>
+        .header{
+            margin-top:20px;
+        }
+        .col-2{
+            padding:5px;
+        }
+        .controls{
+            width:100%;
+            margin:0 auto;
+            margin-top:20px;
+        }
+        .apps{
+            margin-top:20px;
+        }
+
+        .contact_div{
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
-        <div>These are the contacts and apps you will be able to access and/or receive notifications from during meal times</div>
-        <div>Name Contacts</div>
-        <div class="contact_div list-group"></div>
-        <form name="myBtnr">
-            Enter contact name:
-            <input id="text" type="text">
-            <br>
-            Enter contact number:
-            <input id="number" type="text">
-            <br>
-            <a class="waves-effect waves-light btn" id="myBtn">Finish Adding Contacts</a>
-        </form>
+        <h2 class="header">
+            Whitelist 
+        </h2>
+        <p class="text-muted" style="text-align:justify">These are the contacts and apps you will be able to access and/or receive notifications from during meal times.</p>
+        <div class="contacts">
+            <h4>
+                Contacts
+            </h4>
+            <ul class="contact_div list-group"></ul>
+            <h6>Add Contact</h6>
+            <form>
+                <div class="form-group">
+                    <input id="text" class="form-control" placeholder="Enter contact name">
+                </div>
+                <div class="form-group">
+                    <input id="number" class="form-control" placeholder="Enter contact number">
+                </div>
+                <a id="myBtn" class="button auth-btn" style="width:100%">Add</a>
+            </form>
+            
+<!--             
+            <div class="contact_div list-group"></div>
+            <form name="myBtnr">
+                Enter contact name:
+                <input id="text" type="text">
+                <br>
+                Enter contact number:
+                <input id="number" type="text">
+                <br>
+                <a class="waves-effect waves-light btn" id="myBtn">Finish Adding Contacts</a>
+            </form> -->
+        </div>
+        <div class="apps">
+            <h4>
+                Apps
+            </h4>
+            <div class = "controls row">
+                    <div class="col-2">
+                        <img id="icon1" src="img/twitter.png" class="img-fluid" onclick="addToWhitelist(this)">
+                    </div>
+                    <div class="col-2">
+                        <img id="icon2" src="img/facebook.png" class="img-fluid" onclick="addToWhitelist(this)">
+                    </div>
+                    <div class="col-2">
+                        <img id="icon3" src="img/airbnb.png" class="img-fluid" onclick="addToWhitelist(this)">
+                    </div>
+                    <div class="col-2">
+                        <img id="icon4" src="img/instagram.png" class="img-fluid" onclick="addToWhitelist(this)">
+                    </div>
+                    <div class="col-2">
+                        <img id="icon5" src="img/yelp.png" class="img-fluid" onclick="addToWhitelist(this)">
+                    </div>
+                    <div class="col-2">
+                        <img id="icon6" src="img/messenger.png" class="img-fluid" onclick="addToWhitelist(this)">
+                    </div>
+                    <div class="col-2">
+                        <img id="icon7" src="img/gmail.png" class="img-fluid" onclick="addToWhitelist(this)">
+                    </div>
+            </div> 
         </div>
 
-        <div class = "controls row">
-            <div class="col-2">
-                <img id="icon1" src="img/twitter.png" class="img-fluid" onclick="addToWhitelist(this)">
-            </div>
-            <div class="col-2">
-                <img id="icon2" src="img/facebook.png" class="img-fluid" onclick="addToWhitelist(this)">
-            </div>
-            <div class="col-2">
-                <img id="icon3" src="img/airbnb.png" class="img-fluid" onclick="addToWhitelist(this)">
-            </div>
-            <div class="col-2">
-                <img id="icon4" src="img/instagram.png" class="img-fluid" onclick="addToWhitelist(this)">
-            </div>
-            <div class="col-2">
-                <img id="icon5" src="img/yelp.png" class="img-fluid" onclick="addToWhitelist(this)">
-            </div>
-            <div class="col-2">
-                <img id="icon6" src="img/messenger.png" class="img-fluid" onclick="addToWhitelist(this)">
-            </div>
-            <div class="col-2">
-                <img id="icon7" src="img/gmail.png" class="img-fluid" onclick="addToWhitelist(this)">
-            </div>
-        </div> 
+
+        
     </div>
     <a class="button auth-btn" href="profile.html">Back</a>                                                                                                                                                                        
 </body>
