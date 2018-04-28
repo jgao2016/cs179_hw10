@@ -1,6 +1,6 @@
 function addToWhitelist () {
     if (this.style.opacity==0.25) {
-        this.style.opacity=1.0 
+        this.style.opacity=1.0
     }
     else {
         this.style.opacity=0.25
@@ -19,6 +19,7 @@ $(document).ready(function(){
         addContact();
     });
     $('.img-fluid').click(addToWhitelist);
+    $('.img-fluid').style.opacity=0.25;
 
 // create the add whitelist apps function
 // function addToWhitelist (image) {

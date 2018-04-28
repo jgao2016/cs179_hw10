@@ -11,7 +11,7 @@ function update(){
             labels: ["Dining", "Twitter", "Facebook", "Instagram", "Voice mail", "Messenger", "Chat", "Phone calls"],
             datasets: [{
                 label: "Time distribution",
-                backgroundColor: ["#53868B", "#66CCCC", "#AEEEEE", "#37FDFC", "#00CDCD", "#E0FFFF", "#63D1F4", "#0EBFE9"],
+                backgroundColor: ["#53868B", "#66CCCC", "#AEEEEE", "#37FDFC", "#00FF00", "#00ff7f", "#98fb98", "#008080"],
                 data: [...Array(8).keys()].map(d=>rand(10,50)),
             }]
         },
