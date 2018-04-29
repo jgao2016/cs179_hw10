@@ -20,6 +20,7 @@ export let state = {
             meal_time_hour: 0,
             meal_time_minute: 0,
             meal_reward:0,
+            meal_people:3,
         }
     ],
     
