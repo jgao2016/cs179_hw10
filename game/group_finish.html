@@ -19,6 +19,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     
     <script src="../js/common.js" type="module"></script>
+    <script src="js/group.js" type="module"></script>      
     <script src="js/group_finish.js" type="module"></script>      
     
     <!--include your own script as a module like above-->   
@@ -29,7 +30,7 @@
         <div class='group'>
             <div class='header'>
                 <div class="header-groupname"></div>
-                <div class="header-graphic"><img class ="meal-img" src="img/faces.png"></div>
+                <div class="header-graphic"><img class ="meal-img" id ="meal-faces"></div>
             </div>
             
             <div class='content'>
@@ -37,7 +38,7 @@
                     <a class="text">
                             <p>Congratulations! </p>
                             <p><a>However,</a>
-                                <a class="bold-text"> Jack</a>
+                                <a class="bold-text" id="breaker"> </a>
                                 <a>left your circle</a>
                                 <a class="bold-text"> once.</a>
                             </p>    

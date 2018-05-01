@@ -18,8 +18,13 @@ $(document).ready(function(){
         console.log("alert");
         addContact();
     });
+    // $('.img-fluid').style.opacity=0.25;
+    let list=document.getElementsByClassName("img-fluid")
+    for (i=0;i<list.length;i++){
+        list[i].style.opacity=0.25;
+    }
     $('.img-fluid').click(addToWhitelist);
-    $('.img-fluid').style.opacity=0.25;
+    
 
 // create the add whitelist apps function
 // function addToWhitelist (image) {

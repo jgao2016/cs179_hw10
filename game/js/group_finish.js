@@ -14,8 +14,9 @@ if (state.session.user==null){
     if (document.getElementById("point") != null){
         document.getElementById("point").innerHTML= `You just finished a nice meal together and earned ${state.session.user.meal_reward} points.`;
     }
+    if (state.session.user.meal_people == 3) document.getElementById("breaker").innerHTML=`Tom`;
+    else document.getElementById("breaker").innerHTML=`Jack`;
 }
-
 // console.log("user id:");
 // console.log(state.session.user.id);
 // console.log("user mealgroup:");
