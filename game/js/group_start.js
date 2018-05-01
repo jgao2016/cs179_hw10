@@ -28,3 +28,4 @@ $('#hourlist li').on('click', function(){
     state.session.user.meal_reward=state.session.user.meal_time_hour*60+state.session.user.meal_time_minute;
     saveState(state);
 });
+
